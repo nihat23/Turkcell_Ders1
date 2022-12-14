@@ -49,6 +49,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.btnCizgiCiz = new System.Windows.Forms.Button();
+            this.btnSayac = new System.Windows.Forms.Button();
+            this.lblSayac = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -252,6 +254,27 @@
             this.btnCizgiCiz.UseVisualStyleBackColor = true;
             this.btnCizgiCiz.Click += new System.EventHandler(this.btnCizgiCiz_Click);
             // 
+            // btnSayac
+            // 
+            this.btnSayac.Location = new System.Drawing.Point(475, 158);
+            this.btnSayac.Name = "btnSayac";
+            this.btnSayac.Size = new System.Drawing.Size(89, 35);
+            this.btnSayac.TabIndex = 21;
+            this.btnSayac.Text = "Sayaç";
+            this.btnSayac.UseVisualStyleBackColor = true;
+            this.btnSayac.Click += new System.EventHandler(this.btnSayac_Click);
+            // 
+            // lblSayac
+            // 
+            this.lblSayac.AutoSize = true;
+            this.lblSayac.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSayac.Location = new System.Drawing.Point(732, 9);
+            this.lblSayac.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSayac.Name = "lblSayac";
+            this.lblSayac.Size = new System.Drawing.Size(19, 20);
+            this.lblSayac.TabIndex = 22;
+            this.lblSayac.Text = "0";
+            // 
             // Ogrenci_Kayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -259,6 +282,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Coral;
             this.ClientSize = new System.Drawing.Size(776, 435);
+            this.Controls.Add(this.lblSayac);
+            this.Controls.Add(this.btnSayac);
             this.Controls.Add(this.btnCizgiCiz);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label8);
@@ -314,5 +339,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Button btnCizgiCiz;
+        private System.Windows.Forms.Button btnSayac;
+        private System.Windows.Forms.Label lblSayac;
     }
 }

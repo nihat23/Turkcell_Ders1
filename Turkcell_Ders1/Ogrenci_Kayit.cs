@@ -61,5 +61,15 @@ namespace Turkcell_Ders1
         {
             listBox1.Items.Add("-----------------------------------------------------------------------------------------------------");
         }
+
+        int sayac = 0;
+
+        private void btnSayac_Click(object sender, EventArgs e)
+        {
+            sayac++;
+            lblSayac.Text = sayac.ToString();
+
+
+        }
     }
 }
