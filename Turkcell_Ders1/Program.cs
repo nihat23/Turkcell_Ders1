@@ -16,7 +16,7 @@ namespace Turkcell_Ders1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ogrenci_Kayit());
+            Application.Run(new Form4());
         }
     }
 }

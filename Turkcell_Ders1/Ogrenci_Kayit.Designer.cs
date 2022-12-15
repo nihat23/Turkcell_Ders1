@@ -205,6 +205,7 @@
             this.btnTemizle.TabIndex = 15;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // txtDurum
             // 

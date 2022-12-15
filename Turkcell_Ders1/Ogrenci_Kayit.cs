@@ -71,5 +71,17 @@ namespace Turkcell_Ders1
 
 
         }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            cmbDers.SelectedIndex = -1;
+            txtAdSoyad.Text = "";
+            maskedTextBox1.Text = "";
+            txtDurum.Text = "";
+            txtOrtalama.Text = "";
+            txtSinav1.Text = "";
+            txtSinav2.Text = "";
+            txtSinav3.Text = "";
+        }
     }
 }
